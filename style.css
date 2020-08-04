@@ -1,0 +1,13 @@
+a {
+    color: red;
+}
+
+.medium-image{
+    width: 150px;
+}
+
+article{
+    display: inline-block;
+    width: 50vw; 
+}
+

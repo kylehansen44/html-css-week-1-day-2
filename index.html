@@ -7,10 +7,22 @@
 <meta name="author" content="Kyle Hansen"/>
 <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
  <title>Html 1 Lecture</title>
+ <!-- LINK TAG OPTIMAL  -->
+ <link rel="stylesheet" href="reset.css"
+ <link rel="stylesheet" href="style.css" /> 
 </head>
 <body>
+    <!-- STYLE TAG NOT OPTIMAL -->
+    <style>
+        a {
+            font-size: 24px;
+            font-family: cursive;
+        }
+    </style>
     <header>
-        <h1>HTML/CSS 1 Lecture Code</h1>
+        <!-- INLINE STYLES ALSO NOT OPTIMAL -->
+        <h1 style="color: blue;font-size: 18px;"
+        >HTML/CSS 1 Lecture Code</h1>
         <nav>
             <a href="https://www.google.com">Home</a>
             <a href="https://worldoftanks.com">About</a>
@@ -35,6 +47,7 @@
         <input type="email" />
         <button>Click Me</button>
         <img 
+        class="medium-image"
         alt="Toucan Sam"
         src="https://i1.wp.com/ipwatchdog.com/images/toucan-sam.jpg?resize=175%2C175"/>
 
