@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 a {
     color: red;
 }
@@ -11,3 +15,27 @@ article{
     width: 50vw; 
 }
 
+#id{
+    width: 50vw;
+}
+
+.outer-box {
+    width: 25vw;
+    height: 25vw;
+    border: 1px solid black;
+    margin: 25px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.inner-box {
+    height: 50%;
+    width: 50%;
+    border: 1px dotted green;
+    padding: 5px;
+}
+
+#second-box {
+    background-color: red;
+    float: right;
+}
